@@ -64,3 +64,17 @@ The target Data to be predicted under (SEVERITYCODE 1-prop damage 2-injury) labe
 • HITPARKEDCAR: Whether or not the collision involved hitting a parked car
 
 Furthermore, because of the existence of null values in some records, the data needs to be preprocessed before any further processing.
+
+# Preprocessing Data
+
+In order to prepare the data, the SEVERITYCODE data was balanced and resampled. Non-relevant columns were dropped,  missing values were corrected and encoding of the data were used to clean-up the data for attributes "WEATHER", "ROADCOND", and "LIGHTCOND".
+
+# Methodology
+
+The methodology used emcompasses Github respository, running Jupyter notebook from the IBM watson studio. Using packages such as Pandas, NumPy, and Sklearn to preprocess data and build machine learning models. 
+
+After reviewing the data, Exploratory Data Analysis was used to focus efforts on important features to predict the severity of an accident in Seattle. The features include "WEATHER", "ROADCOND", and "LIGHTCOND" with SEVERITYCODE being the target variable. 
+
+Using Predictive Modeling and Evaluation, decided on using three Machine Learning models with test and train data: KNN (K-Nearest Neighbors), Decision Tree and Linear Regression.
+
+# Results
