@@ -70,6 +70,7 @@ Furthermore, because of the existence of null values in some records, the data n
 In order to prepare the data, the SEVERITYCODE data was balanced and resampled. Non-relevant columns were dropped,  missing values were corrected and encoding of the data were used to clean-up the data for attributes "WEATHER", "ROADCOND", and "LIGHTCOND".
 
 <p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Screen Shot 2020-09-09 at 6.15.45 AM.png" width="600"/></p>
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Screen Shot Encoding.png" width="600"/></p>
 
 # Methodology
 
@@ -79,4 +80,29 @@ After reviewing the data, Exploratory Data Analysis was used to focus efforts on
 
 Using Predictive Modeling and Evaluation, decided on using three Machine Learning models with test and train data: KNN (K-Nearest Neighbors), Decision Tree and Linear Regression.
 
-# Results
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Exp Data Analysis.png" width="600"/></p>
+
+### K-Nearest Neighbors:
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/predictive model knn.png" width="600"/></p>
+
+### Decision Tree
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/dec tree.png" width="600"/></p> 
+
+### Linear Regression
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Log R.png" width="600"/></p> 
+
+
+# Results & Evaluation 
+
+### Results:
+Results of three models Jaccarrad score, Fl_score and Accuracy score. 
+
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Score.png" width="600"/></p> 
+
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Results.png" width="600"/></p> 
+
+The models were very close, but the Linear Regression model had the best results. 
+
+# Conclusion
+
+Based on historical data from the collision in Seattle, we can conclude that particular weather, road and light conditions have an impact on whether or not the car ride could result in one of the two classes property damage (class 1) or injury (class 2).
