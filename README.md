@@ -69,6 +69,8 @@ Furthermore, because of the existence of null values in some records, the data n
 
 In order to prepare the data, the SEVERITYCODE data was balanced and resampled. Non-relevant columns were dropped,  missing values were corrected and encoding of the data were used to clean-up the data for attributes "WEATHER", "ROADCOND", and "LIGHTCOND".
 
+<p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Screen Shot 2020-09-09 at 6.15.45 AM.png" width="600"/></p>
+
 # Methodology
 
 The methodology used emcompasses Github respository, running Jupyter notebook from the IBM watson studio. Using packages such as Pandas, NumPy, and Sklearn to preprocess data and build machine learning models. 
