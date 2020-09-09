@@ -67,16 +67,16 @@ Furthermore, because of the existence of null values in some records, the data n
 
 # Preprocessing Data
 
-In order to prepare the data, the SEVERITYCODE data was balanced and resampled. Non-relevant columns were dropped,  missing values were corrected and encoding of the data were used to clean-up the data for attributes "WEATHER", "ROADCOND", and "LIGHTCOND".
+In order to prepare the data, the SEVERITYCODE data was balanced and resampled. Non-relevant columns were dropped,  missing values were corrected and encoding of the data was used to clean-up the data for attributes "WEATHER", "ROADCOND", and "LIGHTCOND".
 
 <p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Screen Shot 2020-09-09 at 6.15.45 AM.png" width="600"/></p>
 <p align="center"><img src="https://github.com/aarteaga1018/Coursera_Capstone/blob/master/Encoding.png" width="600"/></p>
 
 # Methodology
 
-The methodology used emcompasses Github respository, running Jupyter notebook from the IBM watson studio. Using packages such as Pandas, NumPy, and Sklearn to preprocess data and build machine learning models. 
+The methodology used includes Github respository and running Jupyter notebook from the IBM watson studio. Packages were used such as Pandas, NumPy, and Sklearn to preprocess data and build machine learning models. 
 
-After reviewing the data, Exploratory Data Analysis was used to focus efforts on important features to predict the severity of an accident in Seattle. The features include "WEATHER", "ROADCOND", and "LIGHTCOND" with SEVERITYCODE being the target variable. 
+After reviewing the data, Exploratory Data Analysis was used to focus efforts on important features to predict the severity of an accident in Seattle. The features includes "WEATHER", "ROADCOND", and "LIGHTCOND" with SEVERITYCODE being the target variable. 
 
 Using Predictive Modeling and Evaluation, decided on using three Machine Learning models with test and train data: KNN (K-Nearest Neighbors), Decision Tree and Linear Regression.
 
